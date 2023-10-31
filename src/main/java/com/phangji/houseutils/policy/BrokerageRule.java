@@ -1,22 +1,19 @@
 package com.phangji.houseutils.policy;
 
 import lombok.AllArgsConstructor;
+import org.springframework.lang.Nullable;
 
 /**
- * packageName    : com.phangji.houseutils.policy
- * fileName       : BrokerageRule
- * author         : akaydg77
- * date           : 2023-10-31
- * description    : 가격이 특정범위일 때 상한효율과 상한 금액을 가지는 클래스
- * ===========================================================
- * DATE              AUTHOR             NOTE
- * -----------------------------------------------------------
- * 2023-10-31        akaydg77       최초 생성
+ * @author akaydg77
+ * <p>
+ * 가격이 특정 범위일 때 상한효율과 상한금액을 가지는 클래스
  */
 @AllArgsConstructor
 public class BrokerageRule {
 
     private Double brokeragePercent;
+
+    @Nullable
     private Long limitAmout;
 
     public Long calcMaxBrokerage(Long price) {

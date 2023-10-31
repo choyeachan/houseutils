@@ -1,15 +1,9 @@
 package com.phangji.houseutils.policy;
 
 /**
- * packageName    : com.phangji.houseutils.policy
- * fileName       : PurchaseBrokeragePolicy
- * author         : akaydg77
- * date           : 2023-10-31
- * description    : 매매일 때 중개수수료를 계산해주는 클래스
- * ===========================================================
- * DATE              AUTHOR             NOTE
- * -----------------------------------------------------------
- * 2023-10-31        akaydg77       최초 생성
+ * @author akaydg77
+ *
+ * 매매일 때 중개수수료를 계산해주는 클래스
  */
 public class PurchaseBrokeragePolicy implements  BrokeragePolicy{
     public BrokerageRule createBrokerageRule(Long price){

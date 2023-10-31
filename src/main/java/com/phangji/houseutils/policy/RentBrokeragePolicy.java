@@ -1,15 +1,9 @@
 package com.phangji.houseutils.policy;
 
 /**
- * packageName    : com.phangji.houseutils.policy
- * fileName       : RentBrokeragePolicy
- * author         : akaydg77
- * date           : 2023-10-31
- * description    : 임대차일 때 중개수수료를 계산해주는 클래스
- * ===========================================================
- * DATE              AUTHOR             NOTE
- * -----------------------------------------------------------
- * 2023-10-31        akaydg77       최초 생성
+ * @author akaydg77
+ *
+ * 임대차일 때 중개수수료를 계산해주는 클래스
  */
 public class RentBrokeragePolicy implements  BrokeragePolicy{
 

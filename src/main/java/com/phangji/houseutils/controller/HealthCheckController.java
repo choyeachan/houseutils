@@ -4,15 +4,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * packageName    : com.phangji.houseutils.controller
- * fileName       : HealthCheckController
- * author         : akaydg77
- * date           : 2023-10-26
- * description    :
- * ===========================================================
- * DATE              AUTHOR             NOTE
- * -----------------------------------------------------------
- * 2023-10-26        akaydg77       최초 생성
+ * @author akaydg77
+ *
+ * 서비스 헬스 체를 위한 컨트롤러
  */
 @RestController
 public class HealthCheckController {
